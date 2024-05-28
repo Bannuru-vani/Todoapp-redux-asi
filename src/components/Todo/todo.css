@@ -1,0 +1,17 @@
+.list-item label {
+  flex: 1 !important;
+  color: #777;
+  font-weight: 500;
+}
+
+.list-item input {
+  color: #777;
+  font-weight: 500;
+}
+
+.list-item label span:first-child {
+  width: 30px;
+}
+.list-item label span:last-child {
+  width: 70%;
+}

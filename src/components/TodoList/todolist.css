@@ -1,0 +1,43 @@
+.list-wrapper {
+  background-color: #fff;
+
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0px 9px 15px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+}
+
+.list {
+  min-height: 350px;
+}
+.list li {
+  padding-left: 15px !important;
+}
+
+.list-footer {
+  position: absolute;
+  height: 48px;
+  width: 100%;
+  bottom: 0;
+  border-radius: 10px;
+  padding: 0px 15px;
+}
+
+.list-footer p {
+  font-weight: 600;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.list-footer button {
+  font-weight: 600;
+  color: #aaa;
+  padding: 0;
+}
+
+.list-footer button:hover {
+  background-color: #fff !important;
+  color: #555 !important;
+}
